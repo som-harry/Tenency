@@ -39,37 +39,7 @@
       /* max-width: 960px; */
       margin: 0 auto ;
   }
-  nav{
-      background-color: white;
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 1px solid #F3F2F2;
-      top: 0;
-      position: fixed;
-      width: 100%;
-      /* margin-bottom: 20000px; */
-  }
-  nav ul {
-      list-style-type: none;
-      padding: 0;
-      display: flex;
-      padding-top:10px ;
-      padding-bottom: 10px;
-      padding-right: 10px;
-      margin: 0;
-  }
-  nav li {
-      flex: 1 1 0;
-  }
-  nav a{
-      text-decoration: none;
-      color: rgb(101, 91, 110);
-      display: block;
-      padding: 10px;
-  }
-  nav a:hover{
-      background-color: grey;
-  }
+  
   .logo {
       margin: 10px;
       padding: 0;
@@ -127,6 +97,9 @@
       border-radius: 5px;
       cursor: pointer;
   }
+  #july{
+   margin-left: -10px;
+  }
   h1{
       padding: 10px 0px 5px 0px;
   }
@@ -150,7 +123,7 @@
   }
   .frontend{
       flex-basis: 300px;
-      height: 280px;
+      /* height: 280px; */
       background-color: white;
       margin: 5px 15px 5px 15px;
       border-radius: 5px;
@@ -160,7 +133,7 @@
   }
   .master{
       flex-basis: 150px;
-      height: 220px;
+      /* height: 220px; */
       background-color: black;
       border-top: 10px solid rgba(231, 59, 16, 0.616);
       border-top-left-radius: 5px;
@@ -183,12 +156,15 @@
     color: white;
     border-radius: 40px;
     margin-top: 30px;
-    height: 55px;
+    /* height: 55px; */
     letter-spacing: 3px;
+    margin-bottom: 10px;
     border: 1px solid rgba(231, 59, 16, 0.616);
     background-color:rgba(231, 59, 16, 0.616);
     font-weight: bolder;
     cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   h4{
       padding: 10px;
@@ -199,7 +175,7 @@
       /* margin-top: 25px;
       margin-left: 10px; */
       margin: 25px 15px 5px 15px;
-      height: 40px;
+      /* height: 40px; */
       background-color: rgb(89, 218, 223);
       border-radius: 5px;
       text-align: center;
@@ -256,18 +232,16 @@
       height: 30px;
       border-radius: 20px;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
-      justify-content: space-between;
-     
       /* justify-content: space-between; */
+                  
   }
   .grid:hover{
       border: 1px solid red;
   }
   .gridone, .gridtwo, .gridthree, .gridfour, .gridfive, .gridsix{
       background-color: white;
-      padding: -10px 0px 0px 10px;
       cursor: pointer;
       margin: 10px;
     }
@@ -275,8 +249,8 @@
 #gridcolors{
     /* margin: 0; */
     padding: 0;
-    margin-left: 10px;
-    margin-top: -5px;
+    margin-left: 5px;
+    margin-top: 10px;
 }
 .gridcolors{
     background-color: #8372CB;
@@ -352,7 +326,7 @@ footer ul.terms li{
 }
 .frame{
     /* flex-basis: 30px; */
-    height: 355px;
+    /* height: 355px; */
     border-radius: 10px; 
     width: 230px; 
     box-shadow: 1px solid rgb(252, 251, 251);
@@ -420,7 +394,7 @@ small{
 aside{
     display: flex;
     align-items: flex-end;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     /* background-color: rgb(180, 180, 180); */
 }
 .asides{
@@ -428,12 +402,13 @@ aside{
     height: 40px;
     border-radius: 50%;
     margin-left: 10px;
-    margin-right: 5px;
+    margin-bottom: 10px;
+    /* margin-right: 5px; */
 }
 .feet{
    color: grey;
-   margin-top: 10px;
-   margin-left: 0px;
+   /* margin-top: 5225px; */
+   margin-left: -90px;
    font-size: 12px;
    padding:0;
    font-weight: bolder;
@@ -442,6 +417,7 @@ aside{
     margin-left: -10px;
     font-weight: lighter;
     font-size: x-small;
+    margin-bottom: 0px;
 }
 .foots1{
     margin:0;
@@ -456,8 +432,8 @@ aside{
     body{
         background-color: white;
     }
-    nav li{
-        text-indent: -10000px;
+    /* nav li{
+        text-indent: -10000px; */
   }
   footer{
       position: relative;
@@ -540,10 +516,21 @@ footer ul.terms{
     .frame{
         margin-top: 30px;
         flex-basis: 400px;
-        height: 470px;
+        /* height: 470px; */
    }
    .image{
     width: 400px;
+   }
+   h3{
+       font-size: 20px;
+       letter-spacing: 2px;
+   }
+   p{
+    font-size: 15px;
+    letter-spacing: 2px; 
+   }
+   .feet{
+       margin-left: -190px;
    }
 }
 
